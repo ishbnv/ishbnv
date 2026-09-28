@@ -1,22 +1,22 @@
-<img src="./github-header.png" alt="Ivan Shabanov — Full-Stack Engineer · React · Node.js" width="100%">
+<img src="./github-header.png" alt="Ivan Shabanov — Senior Full-Stack Engineer · Python · React · AI Engineering" width="100%">
 
-Full-stack engineer (TypeScript, React, Node.js). I ship features end-to-end: data model, API, UI, monitoring, production. Based in Yerevan, Armenia (GMT+4), full overlap with EU hours.
+Senior Full-Stack Engineer specializing in **Python (FastAPI, asyncio)**, **React**, and **AI Engineering & DevEx**. I ship features end-to-end: system design, API contracts, database architecture, UI, and production observability. Based in Yerevan, Armenia (GMT+4), with full overlap with EU and US working hours. B2B contractor / EOR ready.
 
 ### What I've shipped
 
-- Credit-report product in a VK chatbot for a consumer-lending fintech: led the feature, brought in a Python developer and an analyst, implemented the Node.js backend with score lookups across a 3M-row dataset. Channel net profit grew **40% within the first week**.
-- Push-notification campaign builder (NestJS + React) that marketers run without engineers. Generates **~$75K/month**.
-- Ad-traffic scoring: 100k-row table ingesting 9k+ leads a day, load time cut **from 5–8 s to under 1 s** with cursor pagination, Redis caching and row virtualization.
-- The team's AI-assisted engineering workflow: Claude Code with project rules, custom MCP servers for the database, task tracker and docs, plus agentic pre-review. Routine work ships **~3× faster**.
+- **Credit-intelligence product for consumer-lending fintech (ID Finance)**: Led a 3-engineer cross-functional team to launch a scoring feature profitable in week one (net profit **+40%**, EPC from $1.9 to $3.8). Built asynchronous Python (FastAPI, asyncio) backend querying a **20M-row dataset** using composite PostgreSQL indexes and Redis.
+- **Autonomous multi-agent engineering pipeline (ID Finance)**: Established an autonomous workflow of 5 context-isolated subagents with custom MCP servers, executable PRD/DTO contracts, and automated TDD Red/Green test loops. Feature turnaround dropped **from ~2 h to ~40 min (+40% delivery speed)** with 100% contract coverage.
+- **Production LLM lead assistant (Admitad)**: Architected automated lead qualification service cutting response time **from ~8 min to <30 s**, with a 3-tier LLM model cascade reducing API costs **by 10×**; 3-month controlled trial moved the channel fully to AI, tripling monthly revenue from **$47K to $141K**.
+- **Event-driven push engine & analytics (ID Finance & Appbooster)**: Engineered Apache Kafka streaming clickstream directly into an async FastAPI push engine with sub-second delivery (<500 ms) and zero message loss across ~10K daily events. Built 100K+ record reporting with cursor pagination and virtualization (load times cut **from 5–8 s to under 1 s**).
 
 ### Stack
 
-TypeScript · Node.js · NestJS · Express · React · Next.js · PostgreSQL · Redis · Kafka · Docker · GitLab CI/CD · OpenTelemetry · Grafana
+Python (FastAPI, asyncio) · React · Next.js · TypeScript · PostgreSQL · Redis · Apache Kafka · Docker · Kubernetes · GitLab CI/CD · GitHub Actions · OpenTelemetry · Grafana · Claude Code · MCP
 
 ### How I work with AI
 
-I keep AI on a short leash: I design the architecture myself and take generated code apart by hand. Project rules, reusable skills and custom MCP servers handle the routine. Production is still on me.
+I treat AI as a deterministic force multiplier: I design system architecture and data contracts first, enforce strict TDD Red/Green test suites, and audit generated diffs through reviewer quality gates. Project rules, executable specs, and custom MCP servers eliminate routine so production stays rock-solid.
 
 ### Links
 
-[ishbnv.dev](https://ishbnv.dev) · [LinkedIn](https://www.linkedin.com/in/ishbnv/) · [CV (PDF)](https://ishbnv.dev/Ivan_Shabanov_CV.pdf) · ivan@ishbnv.dev
+[ishbnv.dev](https://ishbnv.dev) · [LinkedIn](https://www.linkedin.com/in/ishbnv/) · [CV (PDF)](https://ishbnv.dev/Ivan_Shabanov_CV_en.pdf) · ivan@ishbnv.dev
