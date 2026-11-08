@@ -1,23 +1,27 @@
-<img src="./github-header.png" alt="Ivan Shabanov — Senior Full-Stack Engineer · Python · React · AI Engineering" width="100%">
+<img src="./github-header.png" alt="Ivan Shabanov | AI-first Senior Python Engineer | Applied AI & Agentic Systems" width="100%">
 
-Senior Full-Stack Engineer specializing in **Python (FastAPI, asyncio)**, **React**, and **AI Engineering & DevEx**. I ship revenue-critical features end-to-end: system design, API contracts, database architecture, UI, and distributed observability. Based in Yerevan, Armenia (GMT+4), with full overlap with EU/UK working hours. B2B contractor / EOR ready.
+I'm an **AI-first Senior Python Engineer** with **5+ years of commercial experience** in fintech and marketing technology. I build Python backends, production LLM applications and agentic workflows, taking features from technical design through delivery and monitoring.
 
-### What I've shipped
+For me, AI-first means building AI-powered products and using coding agents within an explicit development process: scoped tasks, role-specific contexts, repository-backed specifications, testing and review.
 
-* **Hierarchical AI Document Parser (ID Finance):** Architected an asynchronous verification pipeline (**AWS S3**, Vision LLMs, **PostgreSQL pgvector** + BM25 hybrid search, reranking) orchestrated via **LangGraph** & custom **MCP** servers. Automated borrower document verification in **under 15 s** and cut manual review load by **~60%** with strict Pydantic Structured Outputs.
-* **Credit-Intelligence Product for Consumer Lending (ID Finance):** Led a 3-engineer cross-functional team on technical design, credit-bureau API integration, and an asynchronous **FastAPI** scoring backend over a **20M-row** PostgreSQL dataset (composite indexing, **Redis**). Accelerated the product to profitability in its first week (**+40% net profit**, EPC doubled from **~$1.9 to ~$3.8**).
-* **Autonomous Multi-Agent Delivery Pipeline (ID Finance):** Engineered an autonomous 5-agent delivery workflow (PRD analyst, TDD author, FastAPI/React dev, reviewer gate) built directly on **Anthropic/OpenAI Python SDKs**, Pydantic contracts, and custom **MCP servers**. Slashed feature turnaround from **~2 h to ~40 min** with **100% contract test coverage**.
-* **Autonomous LLM Lead-Processing Assistant (Appbooster):** Built an automated lead qualification service with real-time CRM **Tool Calling** on **FastAPI**, **WebSockets**, and **Redis**. Slashed lead response time from **~8 min to under 30 s** and tripled monthly channel revenue from **~$47K to ~$141K**; designed a confidence-based model cascade cutting LLM API costs **10x** with zero quality drop.
-* **Visual Campaign Canvas & Scoring Table (ID Finance):** Generated **~$80K/month** in marketing revenue with zero engineering intervention by developing a visual campaign canvas (**React**, **FastAPI**, **Celery/Redis**). Cut load time of a 100K-row lead-scoring table from **8 s to under 1 s** via composite indexing and client-side row virtualization.
-* **Event-Driven Kafka Ingestion (ID Finance):** Built an **Apache Kafka** pipeline (Consumer Groups, DLQ) on **AWS** and **Kubernetes** streaming ~10K analytics clickstream events/day with **sub-second delivery (<500 ms latency)** and zero message loss directly into an async push engine and live React UI.
+Based in **Yerevan, Armenia (GMT+4)**. Open to **remote B2B contracts** and employer-supported relocation to **Cyprus, the EU or the UAE**.
+
+### Selected work
+
+* **AI Document Verification (ID Finance):** Built a document-verification workflow using vision LLMs, Python SDKs, LangGraph and **hybrid RAG (pgvector + BM25)**, reducing manual review by approximately **60%** and processing documents in **under 15 seconds**.
+* **Credit-Report Product (ID Finance):** Led delivery of a product backed by a **20-million-row PostgreSQL dataset**, collaborating with a Python engineer and a product analyst. The product became profitable in its first week, with earnings per click increasing from approximately **$1.90 to $3.80**.
+* **Multi-Agent Development Harness (ID Finance):** Built a development workflow with **role-specific contexts**, repository-backed specifications and review reports, wave-based handoffs and human approval gates, reducing feature turnaround from approximately **two hours to 40 minutes**.
+* **LLM Lead Processing and Operating Costs (Appbooster):** Developed an autonomous lead-processing agent with Tool Calling and CRM integrations. During a three-month trial, monthly channel revenue increased from approximately **$47K to $141K**, while lead response time fell from approximately **eight minutes to under 30 seconds**. Reduced total monthly operating costs by approximately **10×**, including a **12× reduction in API costs**, by moving to lightweight **DeepSeek** models, refining the workflow and introducing **Redis caching**.
+* **Campaign Canvas and Table Performance (ID Finance):** Developed a self-service campaign canvas driving approximately **$80K in monthly marketing revenue**. Reduced a **100,000-row table's** loading time from **eight seconds to under one second** through PostgreSQL query optimization and UI row virtualization.
+* **Event-Driven Notifications (ID Finance):** Built an AWS/Kubernetes notification pipeline using **Kafka consumer groups and dead-letter queues**, with at-least-once delivery and idempotent processing, streaming telemetry to a live React UI in **under 500 ms**.
 
 ### Stack
 
-* **Backend & Data:** Python, FastAPI, asyncio, SQLAlchemy, Pydantic, PostgreSQL (pgvector, 20M+ rows), Redis, Apache Kafka (Consumer Groups, DLQ), Celery, REST APIs, WebSockets, Microservices
-* **Frontend:** React, Next.js, TypeScript, Redux Toolkit, Ant Design, Feature-Sliced Design (FSD), Vite, Webpack, Core Web Vitals
-* **AI Engineering & DevEx:** LangGraph, LangChain, Custom MCP Servers, Multi-Agent Systems (5-Agent TDD Orchestration), Hybrid RAG, Pydantic Structured Outputs, Tool/Function Calling, Anthropic & OpenAI Python SDKs, Model Cascading, Claude Code
-* **Cloud & DevOps:** AWS (EC2, S3, ECS, SQS), Docker, Kubernetes, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana, Playwright
+* **Backend & Data:** Python, FastAPI, asyncio, SQLAlchemy, Pydantic, PostgreSQL, Redis, Apache Kafka, Celery, REST APIs, WebSockets, microservices, event-driven architecture
+* **AI & Agentic Systems:** LangGraph, LangChain, hybrid RAG, pgvector, BM25, Tool Calling, structured outputs, LLM SDKs, DeepSeek, model evaluation, multi-agent workflows
+* **Cloud & Delivery:** AWS, Docker, Kubernetes, GitLab CI/CD, GitHub Actions, OpenTelemetry, Grafana, Playwright
+* **Frontend:** React, Next.js, TypeScript, JavaScript, Redux Toolkit
 
 ### Links
 
-[ishbnv.dev](https://ishbnv.dev) · [LinkedIn](https://www.linkedin.com/in/ishbnv/) · [CV (PDF)](https://ishbnv.dev/Ivan_Shabanov_CV_en.pdf) · ivan@ishbnv.dev
+[Portfolio](https://ishbnv.dev) · [LinkedIn](https://www.linkedin.com/in/python-ai-ishbnv/) · ivan@ishbnv.dev
